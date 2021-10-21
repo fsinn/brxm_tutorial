@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hippo:namespaces/brxm_tutorial:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']

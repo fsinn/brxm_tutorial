@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm_tutorial/hst:prototypepages:
+      jcr:primaryType: hst:pages

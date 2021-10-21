@@ -1,0 +1,7 @@
+group: 
+  name: brxm_tutorial
+  after: hippo-cms
+project: brxm_tutorial
+module: 
+  name: brxm_tutorial-repository-data-development
+  after: brxm_tutorial-repository-data-application

@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm_tutorial/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /brxm_tutorial-catalog:
+        jcr:primaryType: hst:containeritempackage

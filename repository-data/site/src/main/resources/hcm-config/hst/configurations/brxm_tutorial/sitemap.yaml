@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm_tutorial/hst:sitemap:
+      jcr:primaryType: hst:sitemap

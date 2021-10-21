@@ -1,0 +1,6 @@
+site: brxm_tutorial
+group: brxm_tutorial
+project: brxm_tutorial
+module:
+  name: brxm_tutorial-repository-data-site-development
+  after: brxm_tutorial-repository-data-site

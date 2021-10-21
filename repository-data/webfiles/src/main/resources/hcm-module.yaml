@@ -1,0 +1,5 @@
+group: 
+  name: brxm_tutorial
+project: brxm_tutorial
+module:
+  name: brxm_tutorial-repository-data-webfiles

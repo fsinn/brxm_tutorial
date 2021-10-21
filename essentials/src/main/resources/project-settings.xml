@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>brxm_tutorial</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedProjectPackage>com.fsinn</selectedProjectPackage>
+  <selectedBeansPackage>com.fsinn.beans</selectedBeansPackage>
+  <selectedComponentsPackage>com.fsinn.components</selectedComponentsPackage>
+  <selectedRestPackage>com.fsinn.rest</selectedRestPackage>
+  <hstRoot>/hst:brxm_tutorial</hstRoot>
+  <webfileBundleName>site</webfileBundleName>
+  <setupDone>false</setupDone>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>
