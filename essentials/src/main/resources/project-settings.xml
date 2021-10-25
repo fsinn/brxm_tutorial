@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
-  <projectNamespace>brxm_tutorial</projectNamespace>
-  <confirmParams>false</confirmParams>
-  <selectedProjectPackage>com.fsinn</selectedProjectPackage>
-  <selectedBeansPackage>com.fsinn.beans</selectedBeansPackage>
-  <selectedComponentsPackage>com.fsinn.components</selectedComponentsPackage>
-  <selectedRestPackage>com.fsinn.rest</selectedRestPackage>
-  <hstRoot>/hst:brxm_tutorial</hstRoot>
-  <webfileBundleName>site</webfileBundleName>
-  <setupDone>false</setupDone>
-  <useSamples>true</useSamples>
-  <extraTemplates>true</extraTemplates>
+    <applicationSubModule>application</applicationSubModule>
+    <cmsDependenciesModule>cms-dependencies</cmsDependenciesModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>false</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <hstRoot>/hst:brxm_tutorial</hstRoot>
+    <projectNamespace>brxm_tutorial</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>com.fsinn.beans</selectedBeansPackage>
+    <selectedComponentsPackage>com.fsinn.components</selectedComponentsPackage>
+    <selectedProjectPackage>com.fsinn</selectedProjectPackage>
+    <selectedRestPackage>com.fsinn.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteContextPath>/site</siteContextPath>
+    <siteModule>site</siteModule>
+    <useSamples>false</useSamples>
+    <webfileBundleName>site</webfileBundleName>
+    <webfilesSubModule>webfiles</webfilesSubModule>
 </project>
