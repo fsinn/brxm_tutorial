@@ -1,6 +1,7 @@
 /content/documents/brxm_tutorial:
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 54832446-7601-45c3-8d1d-cf8a0e91f46e
   hippo:name: BloomReach eXperience Manager Tutorial
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814

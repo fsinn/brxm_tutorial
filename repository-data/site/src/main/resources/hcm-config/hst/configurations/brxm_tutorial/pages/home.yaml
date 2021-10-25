@@ -3,3 +3,4 @@ definitions:
     /hst:hst/hst:configurations/brxm_tutorial/hst:pages/home:
       jcr:primaryType: hst:component
       hst:template: home
+      hst:referencecomponent: hst:components/simplecomponent

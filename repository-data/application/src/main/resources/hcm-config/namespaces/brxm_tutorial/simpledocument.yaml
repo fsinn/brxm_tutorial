@@ -1,0 +1,92 @@
+definitions:
+  config:
+    /hippo:namespaces/brxm_tutorial/simpledocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: ba703463-936f-41ff-8bb4-28ad34cf0bfc
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: faf941b3-70e7-4808-8b16-f392387aa700
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: a4d3ac2c-38e8-4d3f-890a-ea409a3bccbe
+          hipposysedit:node: true
+          hipposysedit:supertype: ['brxm_tutorial:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated']
+          hipposysedit:uri: http://www.brxm_tutorial.com/brxm_tutorial/nt/1.0
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: brxm_tutorial:title
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /content:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: brxm_tutorial:content
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: brxm_tutorial:simpledocument
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          brxm_tutorial:title: ''
+          jcr:uuid: 21ed18fb-1c21-4ce3-8da1-9e5f81bb2e35
+          hippostdpubwf:lastModificationDate: 2021-10-25T15:22:42.710+02:00
+          hippostdpubwf:creationDate: 2021-10-25T15:22:42.710+02:00
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /title:
+            jcr:primaryType: frontend:plugin
+            caption: Title
+            field: title
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /content:
+            jcr:primaryType: frontend:plugin
+            caption: Content
+            field: content
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

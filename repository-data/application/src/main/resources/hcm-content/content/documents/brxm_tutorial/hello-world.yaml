@@ -1,0 +1,58 @@
+/content/documents/brxm_tutorial/hello-world:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: ac886c82-3e3a-4b0f-a5d6-542508b5be38
+  hippo:name: Hello World
+  hippo:versionHistory: 5ecd60c4-41f8-4c41-a40c-10947426f97f
+  /hello-world[1]:
+    jcr:primaryType: brxm_tutorial:simpledocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ce18d0ca-45e7-4c03-9346-2009f221b671
+    brxm_tutorial:title: Hello, World!
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-10-25T15:23:30.983+02:00
+    hippostdpubwf:lastModificationDate: 2021-10-25T15:24:01.183+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 1309f220-4d12-4bfd-83a4-4e966a922702
+    hippotranslation:locale: en
+    /brxm_tutorial:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello World Content</p>
+  /hello-world[2]:
+    jcr:primaryType: brxm_tutorial:simpledocument
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 2908b4d6-49d3-44cb-8449-9335e6441644
+    brxm_tutorial:title: Hello, World!
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-10-25T15:23:30.983+02:00
+    hippostdpubwf:lastModificationDate: 2021-10-25T15:24:00.916+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 1309f220-4d12-4bfd-83a4-4e966a922702
+    hippotranslation:locale: en
+    /brxm_tutorial:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello World Content</p>
+  /hello-world[3]:
+    jcr:primaryType: brxm_tutorial:simpledocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 63eb429f-52ab-45b4-8680-f05d3ff4fe25
+    brxm_tutorial:title: Hello, World!
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-10-25T15:23:30.983+02:00
+    hippostdpubwf:lastModificationDate: 2021-10-25T15:24:00.916+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2021-10-25T15:24:11.897+02:00
+    hippotranslation:id: 1309f220-4d12-4bfd-83a4-4e966a922702
+    hippotranslation:locale: en
+    /brxm_tutorial:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello World Content</p>

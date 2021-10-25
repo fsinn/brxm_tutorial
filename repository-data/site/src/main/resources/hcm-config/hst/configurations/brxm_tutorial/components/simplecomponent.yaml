@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/brxm_tutorial/hst:components/simplecomponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.fsinn.components.SimpleComponent

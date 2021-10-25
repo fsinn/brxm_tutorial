@@ -5,3 +5,4 @@ definitions:
       /root:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/home
+        hst:relativecontentpath: hello-world
