@@ -2,3 +2,65 @@ definitions:
   config:
     /hst:hst/hst:configurations/brxm_tutorial/hst:workspace/hst:containers:
       jcr:primaryType: hst:containercomponentfolder
+      /base:
+        jcr:primaryType: hst:containercomponentfolder
+        /top:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: dbfe53c5-1476-4031-aeca-fe6a7169ca66
+          hst:label: Top
+          hst:xtype: hst.vbox
+        /footer:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 50f9f542-4644-42b4-8446-836575023285
+          hst:label: Footer
+          hst:xtype: hst.vbox
+      /homepage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 6cb37e20-19a5-40ff-aea4-02bba85ce72e
+          hst:label: Home Page Main
+          hst:xtype: hst.vbox
+      /pagenotfound:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: ccc69ecc-e5ed-4bc6-85ec-3ba34df0c6d9
+          hst:label: Page-Not-Found Main
+          hst:xtype: hst.vbox
+      /newslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 6988f77c-f10a-46dd-b1b6-3bd984331377
+          hst:label: News List Main
+          hst:xtype: hst.vbox
+      /newspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 3738368f-0922-4ca6-a80b-32124d0e24bc
+          hst:label: News Page Main
+          hst:xtype: hst.vbox
+      /contentlist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: c2fb39c7-ca50-4d09-a0aa-db09e7430092
+          hst:label: Content List Main
+          hst:xtype: hst.vbox
+      /contentpage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 94a08f4e-112c-477f-b63a-34507af1560e
+          hst:label: Content Page Main
+          hst:xtype: hst.vbox

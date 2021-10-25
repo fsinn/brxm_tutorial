@@ -1,0 +1,108 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/brxm_tutorial:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Content
+        brxm_tutorial:image: Image
+        brxm_tutorial:link: Link
+        brxm_tutorial:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Inhoud
+        brxm_tutorial:image: Afbeelding
+        brxm_tutorial:link: Link
+        brxm_tutorial:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Contenu
+        brxm_tutorial:image: Image
+        brxm_tutorial:link: Lien
+        brxm_tutorial:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Inhalt
+        brxm_tutorial:image: Abbildung
+        brxm_tutorial:link: Link
+        brxm_tutorial:title: Titel
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/brxm_tutorial:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:author: Author
+        brxm_tutorial:content: Content
+        brxm_tutorial:date: Date
+        brxm_tutorial:image: Image
+        brxm_tutorial:introduction: Introduction
+        brxm_tutorial:location: Location
+        brxm_tutorial:source: Source
+        brxm_tutorial:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:author: Auteur
+        brxm_tutorial:content: Inhoud
+        brxm_tutorial:date: Datum
+        brxm_tutorial:image: Afbeelding
+        brxm_tutorial:introduction: Introductie
+        brxm_tutorial:location: Locatie
+        brxm_tutorial:source: Bron
+        brxm_tutorial:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:author: Verfasser
+        brxm_tutorial:content: Inhalt
+        brxm_tutorial:date: Datum
+        brxm_tutorial:image: Abbildung
+        brxm_tutorial:introduction: Einführung
+        brxm_tutorial:location: Standort
+        brxm_tutorial:source: Quelle
+        brxm_tutorial:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:author: Auteur
+        brxm_tutorial:content: Contenu
+        brxm_tutorial:date: Date
+        brxm_tutorial:image: Image
+        brxm_tutorial:introduction: Introduction
+        brxm_tutorial:location: Lieu
+        brxm_tutorial:source: Source
+        brxm_tutorial:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/brxm_tutorial:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Content
+        brxm_tutorial:introduction: Introduction
+        brxm_tutorial:publicationdate: Publication date
+        brxm_tutorial:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Inhoud
+        brxm_tutorial:introduction: Introductie
+        brxm_tutorial:publicationdate: Publicatiedatum
+        brxm_tutorial:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Contenu
+        brxm_tutorial:introduction: Introduction
+        brxm_tutorial:publicationdate: Date de publication
+        brxm_tutorial:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        brxm_tutorial:content: Inhalt
+        brxm_tutorial:introduction: Einführung
+        brxm_tutorial:publicationdate: Publikationsdatum
+        brxm_tutorial:title: Titel
+        jcr:name: Einfaches Dokument
