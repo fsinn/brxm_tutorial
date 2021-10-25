@@ -3,6 +3,7 @@
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 
 [brxm_tutorial:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
@@ -12,6 +13,8 @@
 
 [brxm_tutorial:contentdocument] > brxm_tutorial:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
+
+[brxm_tutorial:imageset] > hippogallery:imageset, hippogallery:relaxed
 
 [brxm_tutorial:newsdocument] > brxm_tutorial:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable

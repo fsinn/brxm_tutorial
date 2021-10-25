@@ -106,3 +106,5 @@ definitions:
         brxm_tutorial:publicationdate: Publikationsdatum
         brxm_tutorial:title: Titel
         jcr:name: Einfaches Dokument
+    /hippo:configuration/hippo:translations/hippo:types/brxm_tutorial:imageset:
+      jcr:primaryType: hipposys:resourcebundles

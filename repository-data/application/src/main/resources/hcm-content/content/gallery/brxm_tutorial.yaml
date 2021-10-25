@@ -3,5 +3,5 @@
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: 65d47a7e-05ff-4446-a647-953c0900d3ce
   hippo:name: BloomReach eXperience Manager Tutorial
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-brxm_tutorial-imageset-folder]
+  hippostd:gallerytype: ['brxm_tutorial:imageset']

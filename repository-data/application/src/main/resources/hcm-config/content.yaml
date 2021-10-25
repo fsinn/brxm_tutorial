@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /content/gallery:
+      hippostd:foldertype: [new-brxm_tutorial-imageset-folder]
+      hippostd:gallerytype: ['brxm_tutorial:imageset']
