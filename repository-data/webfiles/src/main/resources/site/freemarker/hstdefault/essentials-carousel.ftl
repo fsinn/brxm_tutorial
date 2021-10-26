@@ -29,13 +29,13 @@
                     <#assign active = ''/>
                 </#if>
                 <div class="item${active}">
-                  <#-- button to edit shown item -->
-                  <#if configuredItems?? && configuredItems?has_content>
-                    <@hst.manageContent hippobean=item parameterName="document${configuredItems[item_index]}" rootPath="banners"/>
-                  <#else>
-                    <@hst.manageContent hippobean=item/>
-                  </#if>
-                  <img src="<@hst.link hippobean=item.image />" alt="${item.title?html}"/>
+                    <#-- button to edit shown item -->
+                    <#if configuredItems?? && configuredItems?has_content>
+                        <@hst.manageContent hippobean=item parameterName="document${configuredItems[item_index]}" rootPath="banners"/>
+                    <#else>
+                        <@hst.manageContent hippobean=item/>
+                    </#if>
+                    <img src="<@hst.link hippobean=item.image />" alt="${item.title?html}"/>
                     <div class="carousel-caption">
                         <#if item.link??>
                             <h3><a href="<@hst.link hippobean=item.link/>">${item.title?html}</a></h3>
@@ -48,8 +48,10 @@
             </#list>
         </div>
         <#if cparam.showNavigation>
-            <a class="left carousel-control" href="#${componentId}" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-            <a class="right carousel-control" href="#${componentId}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a class="left carousel-control" href="#${componentId}" data-slide="prev"><span
+                        class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#${componentId}" data-slide="next"><span
+                        class="glyphicon glyphicon-chevron-right"></span></a>
         </#if>
         <#--
           The Carousel component is initialized on page-load by means of the data attributes. However, when the
@@ -59,28 +61,32 @@
           used.
         -->
         <#if editMode>
-          <script type="text/javascript">
-            if (window.jQuery && window.jQuery.fn.carousel) {
-              jQuery('#${componentId}').carousel();
-            }
-          </script>
+            <script type="text/javascript">
+                if (window.jQuery && window.jQuery.fn.carousel) {
+                    jQuery('#${componentId}').carousel();
+                }
+            </script>
         </#if>
         <#-- buttons for still available items -->
         <#if editMode && freeItems?? && freeItems?has_content>
-          <div>
-            <#list freeItems as number>
-              <div class="has-new-content-button item-button"><@hst.manageContent documentTemplateQuery="new-banner-document" parameterName="document${number}" rootPath="banners"/></div>
-            </#list>
-          </div>
+            <div>
+                <#list freeItems as number>
+                    <div class="has-new-content-button item-button"><@hst.manageContent documentTemplateQuery="new-banner-document" parameterName="document${number}" rootPath="banners"/></div>
+                </#list>
+            </div>
         </#if>
     </div>
 
     <@hst.headContribution category="htmlHead">
         <style type="text/css">
             /* Carousel base class */
-            #${componentId} {
-                height: ${cparam.carouselHeight}px;
-                margin-bottom: 60px;
+            #
+            ${componentId}
+            {
+                height: ${cparam.carouselHeight}px
+            ;
+                margin-bottom: 60px
+            ;
             }
 
             /* Since positioning the image, we need to help out the caption */
@@ -90,7 +96,9 @@
             }
 
             /* Declare heights because of positioning of img element */
-            #${componentId} .item {
+            #
+            ${componentId}
+            .item {
                 height: ${cparam.carouselHeight}px;
                 background-color: ${cparam.carouselBackgroundColor};
             }
@@ -99,27 +107,18 @@
             .carousel-inner > .item > img {
                 margin: 0 auto;
             }
-          
+
             /* order CC-buttons next to each other */
             .item-button {
-              float: left;
+                float: left;
             }
         </style>
     </@hst.headContribution>
-
-    <@hst.headContribution category="htmlBodyEnd">
-        <script type="text/javascript" src="<@hst.webfile path="/js/jquery-3.5.1.min.js"/>"></script>
-    </@hst.headContribution>
-
-    <@hst.headContribution category="htmlBodyEnd">
-        <script type="text/javascript" src="<@hst.webfile path="/js/bootstrap.min.js"/>"></script>
-    </@hst.headContribution>
-
 <#elseif editMode>
-  <div>
-    <img src="<@hst.link path='/images/essentials/catalog-component-icons/carousel.svg'/>"> Click to edit Carousel
-  </div>
-  <div class="has-new-content-button">
-    <@hst.manageContent documentTemplateQuery="new-banner-document" parameterName="document1" rootPath="banners"/>
-  </div>
+    <div>
+        <img src="<@hst.link path='/images/essentials/catalog-component-icons/carousel.svg'/>"> Click to edit Carousel
+    </div>
+    <div class="has-new-content-button">
+        <@hst.manageContent documentTemplateQuery="new-banner-document" parameterName="document1" rootPath="banners"/>
+    </div>
 </#if>

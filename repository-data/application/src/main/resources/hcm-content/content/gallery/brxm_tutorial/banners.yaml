@@ -166,3 +166,246 @@
           resource: /content/gallery/brxm_tutorial/banners/banner-2.jpg/banner-2.jpg/banner/banner.jpg
         jcr:lastModified: 2021-10-25T16:21:35.909+02:00
         jcr:mimeType: image/jpeg
+  /office.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: fedd15f1-3406-4cbd-a5e2-fdd58f187cb0
+    /office.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: office.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: office.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/office.jpg/office.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:42.843+02:00
+        jcr:mimeType: image/jpeg
+  /study.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1a95b660-ec08-4adc-a20b-82bdda97f877
+    /study.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: study.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: study.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/study.jpg/study.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.402+02:00
+        jcr:mimeType: image/jpeg
+  /thermostat2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 2f490f77-0b8f-47eb-a532-9d25bb628dc5
+    /thermostat2.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: thermostat2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: thermostat2.jpg
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 114
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 154
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 73
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/banners/thermostat2.jpg/thermostat2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-26T10:00:43.738+02:00
+        jcr:mimeType: image/jpeg
