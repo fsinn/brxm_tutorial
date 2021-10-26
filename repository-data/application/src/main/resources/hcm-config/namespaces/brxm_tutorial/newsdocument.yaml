@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 4c695b94-492d-4f47-a140-b3cc9db5356d
+          jcr:uuid: c02adfcc-f240-4d97-8891-8da271698537
           hipposysedit:node: true
           hipposysedit:supertype: ['brxm_tutorial:basedocument', 'hippostd:relaxed',
             'hippotranslation:translated']
@@ -81,12 +81,20 @@ definitions:
             hipposysedit:path: brxm_tutorial:location
             hipposysedit:primary: false
             hipposysedit:type: String
+          /relatednews:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: brxm_tutorial:relatednews
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: brxm_tutorial:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 18710833-98b8-4597-9c01-7fca0a7718ca
+          jcr:uuid: 09a2d890-3585-4979-a8b6-c1a6b4d9980b
           brxm_tutorial:date: 0001-01-01T13:00:00+01:00
           brxm_tutorial:documenttype: news
           brxm_tutorial:introduction: ''
@@ -100,15 +108,21 @@ definitions:
           hippostdpubwf:lastModifiedBy: ''
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
+          brxm_tutorial:author: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:location: ''
           /brxm_tutorial:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
           /brxm_tutorial:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /brxm_tutorial:relatednews:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -187,5 +201,14 @@ definitions:
             field: image
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /relatednews:
+            jcr:primaryType: frontend:plugin
+            caption: Related News
+            field: relatednews
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

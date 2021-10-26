@@ -22,10 +22,11 @@
       hippotranslation:locale: en
       /the-medusa-news:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: c580ac64-3874-4717-a6d9-e5ad72080abe
         hippo:name: The medusa news
-        /the-medusa-news:
+        hippo:versionHistory: 15a88773-097b-4265-9c5d-dfc8935bdd67
+        /the-medusa-news[1]:
           jcr:primaryType: brxm_tutorial:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: b36f6ac7-23b1-43b5-8433-eafdd604120e
@@ -42,51 +43,129 @@
           brxm_tutorial:location: Rotterdam
           brxm_tutorial:source: ''
           brxm_tutorial:title: The medusa news
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:holder: admin
+          hippostd:retainable: false
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T13:04:00+01:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T16:26:18.647+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T13:04:00+01:00
+          hippostdpubwf:publicationDate: 2021-10-26T16:26:20.619+02:00
           hippotranslation:id: 421a0d9a-8827-43c4-913d-6fdf67f2dfc4
           hippotranslation:locale: en
           /brxm_tutorial:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <html>
-                        <body>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        </body>
-                        </html>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&nbsp;</p>
           /brxm_tutorial:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /brxm_tutorial:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+          /brxm_tutorial:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+        /the-medusa-news[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 95712dad-e44d-42ed-92d3-c55138b761eb
+          brxm_tutorial:author: Alfred Anonymous
+          brxm_tutorial:date: 2021-10-25T16:15:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          brxm_tutorial:location: Rotterdam
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: The medusa news
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T16:26:18.647+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 421a0d9a-8827-43c4-913d-6fdf67f2dfc4
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&nbsp;</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /brxm_tutorial:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+          /brxm_tutorial:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+        /the-medusa-news[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c8d199be-0c9d-469e-bcdb-253ec6fc1772
+          brxm_tutorial:author: Alfred Anonymous
+          brxm_tutorial:date: 2021-10-25T16:15:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          brxm_tutorial:location: Rotterdam
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: The medusa news
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T16:25:49.648+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 421a0d9a-8827-43c4-913d-6fdf67f2dfc4
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&nbsp;</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /brxm_tutorial:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+          /brxm_tutorial:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
       /2013-harvest:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
