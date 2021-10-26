@@ -1,4 +1,5 @@
-/hst:hst/hst:configurations/brxm_tutorial/hst:workspace/hst:sitemenus/main/news:
-  .meta:order-before: content
+/hst:hst/hst:configurations/brxm_tutorial/hst:workspace/hst:sitemenus/main/News:
+  .meta:order-before: About
   jcr:primaryType: hst:sitemenuitem
   hst:referencesitemapitem: news
+  hst:repobased: false
