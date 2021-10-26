@@ -1,0 +1,93 @@
+/content/documents/brxm_tutorial/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 12d38361-5a8a-4ff1-9bc1-1acaae1a4e30
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: ca6e2e54-8fca-4f33-b3c3-a7f7599cb796
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7e00addc-81f5-41cb-b090-dd2c8b8641b7
+    hippo:name: About
+    hippo:versionHistory: b27d8f4b-b27c-47bc-9ce5-3d40c44e33c8
+    /about[1]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8db1f9b9-7092-4fe3-9fbc-ef6e374eb76b
+      brxm_tutorial:introduction: Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit.
+      brxm_tutorial:publicationdate: 2021-10-26T15:56:00+02:00
+      brxm_tutorial:title: About GoGreen
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-26T15:52:51.946+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-26T15:52:51.946+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 424e4383-1746-4123-b4ed-7907c74a7892
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus rhoncus convallis neque sit amet facilisis. Pellentesque eget
+          rutrum sapien. Praesent non elit purus. Donec sed accumsan urna. Phasellus
+          varius ipsum eget sapien accumsan iaculis. Nam imperdiet turpis et lectus
+          egestas pretium. Donec in risus in libero pharetra lacinia. Fusce ac justo
+          eget nisl pretium aliquet.</p>
+    /about[2]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1a50bfbd-2b9a-4869-8951-df1e01cb7d24
+      brxm_tutorial:introduction: Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit.
+      brxm_tutorial:publicationdate: 2021-10-26T15:56:00+02:00
+      brxm_tutorial:title: About GoGreen
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-26T15:52:51.946+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-26T15:57:02.512+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 424e4383-1746-4123-b4ed-7907c74a7892
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus rhoncus convallis neque sit amet facilisis. Pellentesque eget
+          rutrum sapien. Praesent non elit purus. Donec sed accumsan urna. Phasellus
+          varius ipsum eget sapien accumsan iaculis. Nam imperdiet turpis et lectus
+          egestas pretium. Donec in risus in libero pharetra lacinia. Fusce ac justo
+          eget nisl pretium aliquet.</p>
+    /about[3]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e51c9d62-f2d5-4640-b68a-2fd10b851e85
+      brxm_tutorial:introduction: Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit.
+      brxm_tutorial:publicationdate: 2021-10-26T15:56:00+02:00
+      brxm_tutorial:title: About GoGreen
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-26T15:52:51.946+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-26T15:57:02.512+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-26T15:57:05.215+02:00
+      hippotranslation:id: 424e4383-1746-4123-b4ed-7907c74a7892
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus rhoncus convallis neque sit amet facilisis. Pellentesque eget
+          rutrum sapien. Praesent non elit purus. Donec sed accumsan urna. Phasellus
+          varius ipsum eget sapien accumsan iaculis. Nam imperdiet turpis et lectus
+          egestas pretium. Donec in risus in libero pharetra lacinia. Fusce ac justo
+          eget nisl pretium aliquet.</p>

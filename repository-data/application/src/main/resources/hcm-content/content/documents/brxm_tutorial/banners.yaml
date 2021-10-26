@@ -1,4 +1,5 @@
 /content/documents/brxm_tutorial/banners:
+  .meta:order-before: about
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 3c453220-0808-4655-a64e-3ec531c53357
