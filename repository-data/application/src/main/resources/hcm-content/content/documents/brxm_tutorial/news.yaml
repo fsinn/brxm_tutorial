@@ -221,3 +221,899 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+      /pagination-works-maybe:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: eb08eb46-dc4b-4ffc-b21b-bbc6da4faa3f
+        hippo:name: Pagination works, maybe
+        hippo:versionHistory: 4a1aa042-bb14-43d0-a09a-6ca8d492496e
+        /pagination-works-maybe[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f249eb27-ef65-41e8-ab75-5c6a14ee8d6b
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:14:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (1)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b7f0ad5b-809e-4a97-bcb7-20aa4e8ab9e6
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: f6a77443-dfa6-470e-b761-e4f80510615e
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:14:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (1)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:14:58.283+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b7f0ad5b-809e-4a97-bcb7-20aa4e8ab9e6
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d3bfabee-de45-4962-a50e-dda3ca3e3c88
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:14:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (1)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:14:58.283+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:15:03.560+02:00
+          hippotranslation:id: b7f0ad5b-809e-4a97-bcb7-20aa4e8ab9e6
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-2:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: f6beb8b7-ce90-4c53-b711-692356d20f86
+        hippo:name: Pagination works, maybe (2)
+        hippo:versionHistory: 142ca49a-933a-4b46-b5a5-c98e587cc3cd
+        /pagination-works-maybe-2[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 02e99966-3ef5-4a71-962e-a0ce5a431dab
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:15:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (2)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:15:22.813+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 8202ddac-19e9-4652-ba03-775533edd1af
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-2[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a5ee47b9-8113-492d-a2f4-d70ef72c0c06
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:15:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (2)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:15:22.852+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 8202ddac-19e9-4652-ba03-775533edd1af
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-2[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a95e0742-467b-4787-918e-360e2cfeae48
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:15:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (2)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:15:22.813+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:15:26.008+02:00
+          hippotranslation:id: 8202ddac-19e9-4652-ba03-775533edd1af
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-3:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 92a55b39-d174-4da3-8a30-62eab76a5f8b
+        hippo:name: Pagination works, maybe (3)
+        hippo:versionHistory: c995bb44-79ab-4590-97c4-d40ccce63691
+        /pagination-works-maybe-3[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 3f0ffa60-2617-493b-9096-56b93fa781c7
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (3)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:15:43.618+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c463d7d4-6631-45c3-80df-8d62471ee80e
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-3[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4a2d1c5e-c8c2-49a1-bd90-c785da9a7625
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (3)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:15:36.567+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c463d7d4-6631-45c3-80df-8d62471ee80e
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-3[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f9439daf-c2c7-4fca-a9ee-5ea247599f3f
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (3)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:15:43.618+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:15:45.724+02:00
+          hippotranslation:id: c463d7d4-6631-45c3-80df-8d62471ee80e
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-4:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: dfc632b3-9ec2-4ba9-b15d-23eef41763ba
+        hippo:name: Pagination works, maybe (4)
+        hippo:versionHistory: 042da6a3-3b9c-4855-8a93-2887e7b385b8
+        /pagination-works-maybe-4[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: d7deb64e-6793-4c4b-8e3b-f7bcc68914d4
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (4)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:17:10.024+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 2326cc18-6700-45df-bc4e-478bf0cce0c8
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-4[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f89b2e2d-53fc-4dc8-8031-20bbcc6c4d73
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (4)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:17:04.521+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 2326cc18-6700-45df-bc4e-478bf0cce0c8
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-4[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 36e68e37-3153-4405-bc82-09cf227cf577
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (4)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:17:10.024+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:17:11.609+02:00
+          hippotranslation:id: 2326cc18-6700-45df-bc4e-478bf0cce0c8
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-5:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: f0a0e467-5cac-497b-827c-db1d433dd5cc
+        hippo:name: Pagination works, maybe (5)
+        hippo:versionHistory: 57552c86-99ed-4bc7-8199-01e6c88886a7
+        /pagination-works-maybe-5[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 2e8b6d30-6d21-440c-9337-570fc8d8a4aa
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (5)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:21:28.069+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e0c35149-cd4c-49af-a807-c998a5505443
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-5[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1aa5c608-8747-4de9-81fb-48bc2cf17d9a
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (5)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:21:24.200+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e0c35149-cd4c-49af-a807-c998a5505443
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-5[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b7a24212-4fcf-46ec-a19d-dc6f2005ff3d
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (5)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:21:28.069+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:21:29.495+02:00
+          hippotranslation:id: e0c35149-cd4c-49af-a807-c998a5505443
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-6:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: ac8fbb7d-959c-4ab3-ab82-fbc30a476581
+        hippo:name: Pagination works, maybe (6)
+        hippo:versionHistory: bc457d70-fa8c-4d08-8f9d-592dde2b419e
+        /pagination-works-maybe-6[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1b7ff831-b39b-49fb-a522-ed6bbbe9d06b
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (6)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:24:30.776+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: ec1cc287-2a5f-4ffc-ab7c-cfa41184fb05
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-6[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 958a67f8-bb36-41e1-9c6d-efcd01c753a1
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (6)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:24:25.007+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: ec1cc287-2a5f-4ffc-ab7c-cfa41184fb05
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-6[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4dd1cc59-4ca9-4480-b146-da8649661d4e
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (6)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:24:30.776+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:24:32.604+02:00
+          hippotranslation:id: ec1cc287-2a5f-4ffc-ab7c-cfa41184fb05
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-7:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: af65976f-ce69-40f2-bb8f-467849eed11d
+        hippo:name: Pagination works, maybe (7)
+        hippo:versionHistory: 00872d22-0678-4a25-9aac-bbe520a17a2b
+        /pagination-works-maybe-7[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 0e9ae43b-39c0-4459-9b49-e19a9112505f
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (7)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:24:58.921+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 85127a9b-453c-462b-b718-2f131bf1342c
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-7[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e0cc36a4-fb50-44fe-ba29-6c7e2d0fa130
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (7)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:24:58.921+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:25:00.380+02:00
+          hippotranslation:id: 85127a9b-453c-462b-b718-2f131bf1342c
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-7[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 22705f53-4657-45ff-93f3-09f4abbe3aca
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (7)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:24:54.935+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 85127a9b-453c-462b-b718-2f131bf1342c
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /pagination-works-maybe-8:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 17cc1ad8-395e-4254-9174-ec9af45d1c3d
+        hippo:name: Pagination works, maybe (8)
+        hippo:versionHistory: 920fad89-65be-4b00-b1c7-a969bb3ce82e
+        /pagination-works-maybe-8[1]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 13a3df51-fbb3-466d-8901-0711b037f578
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (8)
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:25:32.017+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 798d4e1c-af6b-49c7-bcc6-5a3c865b3ee5
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-8[2]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b5a3827b-5f77-437a-873a-2064655296c7
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (8)
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:25:28.260+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 798d4e1c-af6b-49c7-bcc6-5a3c865b3ee5
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /pagination-works-maybe-8[3]:
+          jcr:primaryType: brxm_tutorial:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f9c784db-b0b9-4c73-96b9-b3b21d8661dc
+          brxm_tutorial:author: Fred
+          brxm_tutorial:date: 2021-10-26T13:16:00+02:00
+          brxm_tutorial:documenttype: news
+          brxm_tutorial:introduction: This is a test for pagination
+          brxm_tutorial:location: ''
+          brxm_tutorial:source: ''
+          brxm_tutorial:title: Pagination works, maybe (8)
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-10-26T13:14:01.636+02:00
+          hippostdpubwf:lastModificationDate: 2021-10-26T13:25:32.017+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-10-26T13:25:33.471+02:00
+          hippotranslation:id: 798d4e1c-af6b-49c7-bcc6-5a3c865b3ee5
+          hippotranslation:locale: en
+          /brxm_tutorial:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nam lobortis massa a orci sollicitudin malesuada. Etiam blandit
+              sem blandit risus vestibulum porttitor. In pulvinar condimentum tellus
+              sit amet facilisis. Donec iaculis fermentum lectus, ut porta nisl. Aliquam
+              ac dignissim libero. Morbi vitae risus pellentesque dolor bibendum semper.
+              Aliquam erat volutpat.</p>
+          /brxm_tutorial:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
