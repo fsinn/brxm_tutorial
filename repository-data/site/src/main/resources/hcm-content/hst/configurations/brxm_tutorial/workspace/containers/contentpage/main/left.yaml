@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/brxm_tutorial/hst:workspace/hst:containers/contentpage/main/left:
+  jcr:primaryType: hst:containercomponent
+  hippo:identifier: 94a08f4e-112c-477f-b63a-34507af1560e
+  hst:label: Content Page Main
+  hst:xtype: hst.vbox
+  /content:
+    jcr:primaryType: hst:containeritemcomponent
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+    hst:label: Content
+    hst:template: contentpage-main
