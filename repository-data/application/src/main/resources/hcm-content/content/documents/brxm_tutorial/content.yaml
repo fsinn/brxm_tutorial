@@ -90,3 +90,159 @@
 
                       </body>
                       </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: bd195255-5640-4921-ac96-fd77a8a3269b
+    hippo:name: Quick Facts
+    hippo:versionHistory: bd2d8b77-96e6-4e75-9f61-ad661a86eb37
+    /quick-facts[1]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b6f58b89-43d3-46f6-9403-f8bc931488f7
+      brxm_tutorial:introduction: BloomReach is headquartered in Mountain View, CA
+        with offices worldwide.
+      brxm_tutorial:publicationdate: 2021-10-27T11:32:00+02:00
+      brxm_tutorial:title: Quick facts about BloomReach
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T11:23:15.115+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T11:34:14.842+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c060df88-817c-40a5-975b-87753d82589d
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+    /quick-facts[2]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: c4549381-61fb-4590-a26b-67b3eb84da73
+      brxm_tutorial:introduction: BloomReach is headquartered in Mountain View, CA
+        with offices worldwide.
+      brxm_tutorial:publicationdate: 2021-10-27T11:32:00+02:00
+      brxm_tutorial:title: Quick facts about BloomReach
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T11:23:15.115+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T11:32:42.928+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c060df88-817c-40a5-975b-87753d82589d
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+    /quick-facts[3]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 146f8e6f-9496-4f53-bb00-59db16666e7f
+      brxm_tutorial:introduction: BloomReach is headquartered in Mountain View, CA
+        with offices worldwide.
+      brxm_tutorial:publicationdate: 2021-10-27T11:32:00+02:00
+      brxm_tutorial:title: Quick facts about BloomReach
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T11:23:15.115+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T11:32:42.928+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T11:32:46.013+02:00
+      hippotranslation:id: c060df88-817c-40a5-975b-87753d82589d
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1d05f4da-5a6b-43d1-a114-27531d9493a1
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: 77c1dd4e-6c55-4bdc-b344-30f69106abcd
+    /terms--conditions[1]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d3104187-fe41-48b9-af0e-cc10e2efc926
+      brxm_tutorial:introduction: All content is only used for demo uses.
+      brxm_tutorial:publicationdate: 2021-10-27T11:32:00+02:00
+      brxm_tutorial:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T11:24:08.562+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T11:32:49.397+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a2dea27d-acc0-47a1-872a-5fa550734f2f
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[2]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: dc0a9578-04c9-4324-89ed-9fa555a77523
+      brxm_tutorial:introduction: All content is only used for demo uses.
+      brxm_tutorial:publicationdate: 2021-10-27T11:32:00+02:00
+      brxm_tutorial:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T11:24:08.562+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T11:32:51.230+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a2dea27d-acc0-47a1-872a-5fa550734f2f
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[3]:
+      jcr:primaryType: brxm_tutorial:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 26b2834b-559d-4031-a51c-30b2152a1ff2
+      brxm_tutorial:introduction: All content is only used for demo uses.
+      brxm_tutorial:publicationdate: 2021-10-27T11:32:00+02:00
+      brxm_tutorial:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T11:24:08.562+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T11:32:51.230+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T11:32:52.692+02:00
+      hippotranslation:id: a2dea27d-acc0-47a1-872a-5fa550734f2f
+      hippotranslation:locale: en
+      /brxm_tutorial:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
