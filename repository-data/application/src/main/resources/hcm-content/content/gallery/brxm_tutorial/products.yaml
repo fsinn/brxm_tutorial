@@ -1,0 +1,1060 @@
+/content/gallery/brxm_tutorial/products:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 0a9dfd45-9540-4165-ad77-3363ddf03f8e
+  hippostd:foldertype: [new-brxm_tutorial-imageset-folder]
+  hippostd:gallerytype: ['brxm_tutorial:imageset']
+  /3in_binder.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 071803c9-6e9d-41bd-ab2c-e7c2e9783c3e
+    /3in_binder.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: 3in_binder.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 3in_binder.jpg
+        hippogallery:height: 38
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 346
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 202
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 150
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/3in_binder.jpg/3in_binder.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:16.982+02:00
+        jcr:mimeType: image/jpeg
+  /300px-cti_cooker_photo.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 26d6eab3-0940-4259-89fb-22eb6ba8338b
+    /300px-cti_cooker_photo.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: 300px-cti_cooker_photo.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 300px-cti_cooker_photo.jpg
+        hippogallery:height: 60
+        hippogallery:width: 36
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 136
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 183
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 183
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 152
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 183
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 183
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 142
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/300px-cti_cooker_photo.jpg/300px-cti_cooker_photo.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.546+02:00
+        jcr:mimeType: image/jpeg
+  /aluminum-bottle.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: e65fa10d-df21-42ce-bf50-69d64d6d592e
+    hippo:name: Aluminum-bottle.jpg
+    /aluminum-bottle.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: Aluminum-bottle.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Aluminum-bottle.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 120
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/aluminum-bottle.jpg/aluminum-bottle.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.780+02:00
+        jcr:mimeType: image/jpeg
+  /banana-business-card.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 97b4be6e-b315-415f-8ea6-ca4d01877912
+    /banana-business-card.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banana-business-card.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banana-business-card.jpg
+        hippogallery:height: 43
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 307
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 291
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 291
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 249
+        hippogallery:width: 343
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 291
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 227
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 169
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/banana-business-card.jpg/banana-business-card.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:17.950+02:00
+        jcr:mimeType: image/jpeg
+  /bth_producemeshgreen.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d1f5033b-b0d6-420a-8432-a194e58053dc
+    /bth_producemeshgreen.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: bth_producemeshgreen.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: bth_producemeshgreen.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/bth_producemeshgreen.jpg/bth_producemeshgreen.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.198+02:00
+        jcr:mimeType: image/jpeg
+  /family-tent.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f0ca9654-b05f-4aea-9e0e-2d4ca8a556ff
+    /family-tent.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: family-tent.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: family-tent.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/family-tent.jpg/family-tent.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.388+02:00
+        jcr:mimeType: image/jpeg
+  /gs_withlaptop_detail.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3e67bd93-b81f-4403-b48c-1fe63a9f5119
+    /gs_withlaptop_detail.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: gs_withlaptop_detail.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: gs_withlaptop_detail.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/gs_withlaptop_detail.jpg/gs_withlaptop_detail.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.598+02:00
+        jcr:mimeType: image/jpeg
+  /hemp-envelopes-ecopaper.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1d873e4e-2709-45c1-a4c6-ded6142b68f2
+    /hemp-envelopes-ecopaper.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: hemp-envelopes-ecopaper.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: hemp-envelopes-ecopaper.jpg
+        hippogallery:height: 31
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.795+02:00
+        jcr:mimeType: image/jpeg
+  /lifeproof-ipad-case.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 023bc56a-63d4-4f8a-ae8b-a28727f3ba8d
+    /lifeproof-ipad-case.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: lifeproof-ipad-case.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: lifeproof-ipad-case.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:18.982+02:00
+        jcr:mimeType: image/jpeg
+  /smcenturian_detail.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: cac13de7-934d-4044-9da0-db71c652149c
+    /smcenturian_detail.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: smcenturian_detail.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: smcenturian_detail.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcenturian_detail.jpg/smcenturian_detail.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.178+02:00
+        jcr:mimeType: image/jpeg
+  /smcleardynamoflashlight_detail.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f103f63a-ac4c-4732-a223-1bf46cdc7c4b
+    /smcleardynamoflashlight_detail.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: smcleardynamoflashlight_detail.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: smcleardynamoflashlight_detail.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/smcleardynamoflashlight_detail.jpg/smcleardynamoflashlight_detail.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.369+02:00
+        jcr:mimeType: image/jpeg
+  /solar-charging-kit.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e40ea6ef-3f54-424e-adc5-59c4f37fff85
+    /solar-charging-kit.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: solar-charging-kit.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: solar-charging-kit.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/solar-charging-kit.jpg/solar-charging-kit.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.594+02:00
+        jcr:mimeType: image/jpeg
+  /terraclime.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8c2e485a-0365-476c-931c-7389756b6341
+    /terraclime.jpg:
+      jcr:primaryType: brxm_tutorial:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: terraclime.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: terraclime.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/small/small.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/original/original.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/large/large.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/banner/banner.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg
+      /brxm_tutorial:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/brxm_tutorial/products/terraclime.jpg/terraclime.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2021-10-27T13:23:19.851+02:00
+        jcr:mimeType: image/jpeg

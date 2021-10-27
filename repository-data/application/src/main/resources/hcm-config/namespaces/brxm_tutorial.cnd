@@ -19,6 +19,9 @@
 [brxm_tutorial:newsdocument] > brxm_tutorial:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[brxm_tutorial:product] > brxm_tutorial:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [brxm_tutorial:simpledocument] > brxm_tutorial:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 

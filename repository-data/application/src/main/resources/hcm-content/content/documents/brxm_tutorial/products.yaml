@@ -1,0 +1,277 @@
+/content/documents/brxm_tutorial/products:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 539a3f11-2bf7-4e0e-a4e5-b5af191fd515
+  hippostd:foldertype: [new-product-folder, new-product-document]
+  hippotranslation:id: d3dbd1de-6140-474a-8d5e-e7023867ca90
+  hippotranslation:locale: en
+  /solar-centurian---outdoor-security-light:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 92ad465b-7941-4200-9fc0-566454368869
+    hippo:name: Solar Centurian - Outdoor Security Light
+    hippo:versionHistory: 117dbbf3-002b-4633-b85a-38ea77c416d2
+    /solar-centurian---outdoor-security-light[1]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e080dc6f-76b6-450f-99bf-bea6d081d648
+      brxm_tutorial:introduction: Light up your night with a solar powered, motion
+        detected outdoor security light!
+      brxm_tutorial:price: 74.0
+      brxm_tutorial:title: Solar Centurian - Outdoor Security Light
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:25:19.378+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:27:56.548+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e97cc28e-376d-4b86-8c8f-7b90d2de95aa
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This solar powered light is a bright (over 600 lumen) Halogen Security Light that installs easily where utility wiring is impractical or expensive. A patented passive infrared motion detector is able to detect activity up to 23m/75 feet away controls the light. When activated, the Solar Centurion throws a flood light into the target area for up to 3 minutes or as long as there is movement in the area.</p>
+
+          <p>It is perfect for security lighting or convenience lighting in your yard, at your garage, around your garage, or wherever security lighting is required at night!</p>
+
+          <p>The light is replaceable at any lighting or hardware store (Sylvania 1995/ERK miniature Halogen Lamp).</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cac13de7-934d-4044-9da0-db71c652149c
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /solar-centurian---outdoor-security-light[2]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d0a8673e-d90c-4f8b-b26f-849e778d5e70
+      brxm_tutorial:introduction: Light up your night with a solar powered, motion
+        detected outdoor security light!
+      brxm_tutorial:price: 74.0
+      brxm_tutorial:title: Solar Centurian - Outdoor Security Light
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:25:19.378+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:27:33.501+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e97cc28e-376d-4b86-8c8f-7b90d2de95aa
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This solar powered light is a bright (over 600 lumen) Halogen Security Light that installs easily where utility wiring is impractical or expensive. A patented passive infrared motion detector is able to detect activity up to 23m/75 feet away controls the light. When activated, the Solar Centurion throws a flood light into the target area for up to 3 minutes or as long as there is movement in the area.</p>
+
+          <p>It is perfect for security lighting or convenience lighting in your yard, at your garage, around your garage, or wherever security lighting is required at night!</p>
+
+          <p>The light is replaceable at any lighting or hardware store (Sylvania 1995/ERK miniature Halogen Lamp).</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cac13de7-934d-4044-9da0-db71c652149c
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /solar-centurian---outdoor-security-light[3]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 91783c44-efe4-40c9-a5e7-e229da5c0d06
+      brxm_tutorial:introduction: Light up your night with a solar powered, motion
+        detected outdoor security light!
+      brxm_tutorial:price: 74.0
+      brxm_tutorial:title: Solar Centurian - Outdoor Security Light
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:25:19.378+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:27:33.501+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T13:28:11.288+02:00
+      hippotranslation:id: e97cc28e-376d-4b86-8c8f-7b90d2de95aa
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This solar powered light is a bright (over 600 lumen) Halogen Security Light that installs easily where utility wiring is impractical or expensive. A patented passive infrared motion detector is able to detect activity up to 23m/75 feet away controls the light. When activated, the Solar Centurion throws a flood light into the target area for up to 3 minutes or as long as there is movement in the area.</p>
+
+          <p>It is perfect for security lighting or convenience lighting in your yard, at your garage, around your garage, or wherever security lighting is required at night!</p>
+
+          <p>The light is replaceable at any lighting or hardware store (Sylvania 1995/ERK miniature Halogen Lamp).</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cac13de7-934d-4044-9da0-db71c652149c
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /lifeproof-nuud-ipad-air-case:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 05ec3052-1b88-49ee-8390-8be7bd9ba3c1
+    hippo:name: LIFEPROOF NÜÜD IPAD AIR CASE
+    hippo:versionHistory: c9c59956-eb74-4500-a8d6-d6e7d1430bd6
+    /lifeproof-nuud-ipad-air-case[1]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8fe66a71-9083-434c-bcd3-7660febc6cb2
+      brxm_tutorial:introduction: Get full protection for your phone in any wet, dirty
+        or damp setting.
+      brxm_tutorial:price: 192.0
+      brxm_tutorial:title: LIFEPROOF NÜÜD IPAD AIR CASE
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:28:42.808+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:28:42.809+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: aaf4e92b-a18f-49a7-8d9a-adc36485e7f7
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The nuud case armours your phone.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 023bc56a-63d4-4f8a-ae8b-a28727f3ba8d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /lifeproof-nuud-ipad-air-case[2]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9ff2173d-7eb0-44cd-a02f-daff33666687
+      brxm_tutorial:introduction: Get full protection for your phone in any wet, dirty
+        or damp setting.
+      brxm_tutorial:price: 192.0
+      brxm_tutorial:title: LIFEPROOF NÜÜD IPAD AIR CASE
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:28:42.808+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:29:14.729+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: aaf4e92b-a18f-49a7-8d9a-adc36485e7f7
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The nuud case armours your phone.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 023bc56a-63d4-4f8a-ae8b-a28727f3ba8d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /lifeproof-nuud-ipad-air-case[3]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2a08ec89-0a82-4301-b3fc-a96fae1ecafc
+      brxm_tutorial:introduction: Get full protection for your phone in any wet, dirty
+        or damp setting.
+      brxm_tutorial:price: 192.0
+      brxm_tutorial:title: LIFEPROOF NÜÜD IPAD AIR CASE
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:28:42.808+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:29:14.729+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T13:29:16.727+02:00
+      hippotranslation:id: aaf4e92b-a18f-49a7-8d9a-adc36485e7f7
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The nuud case armours your phone.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 023bc56a-63d4-4f8a-ae8b-a28727f3ba8d
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /laptop-sleeves---neogreene:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: fd15ce00-31d0-4be6-b199-5dc148cf95c1
+    hippo:name: LAPTOP SLEEVES - NEOGREENE
+    hippo:versionHistory: daebfa80-d531-4525-9d8f-4f57634ec010
+    /laptop-sleeves---neogreene[1]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a3caf4da-e509-4775-b4c8-abd70b9043cb
+      brxm_tutorial:introduction: Love the squishy feel of neoprene, but hate toxins
+        like VOCs?
+      brxm_tutorial:price: 25.0
+      brxm_tutorial:title: LAPTOP SLEEVES - NEOGREENE
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:29:49.288+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:29:49.288+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 81fd07c2-cb36-4c70-89b0-b9708c119fd2
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The green revolution never took place.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3e67bd93-b81f-4403-b48c-1fe63a9f5119
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /laptop-sleeves---neogreene[2]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: de9acde3-6fbf-4396-8746-539d6b60848b
+      brxm_tutorial:introduction: Love the squishy feel of neoprene, but hate toxins
+        like VOCs?
+      brxm_tutorial:price: 25.0
+      brxm_tutorial:title: LAPTOP SLEEVES - NEOGREENE
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:29:49.288+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:30:30.980+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 81fd07c2-cb36-4c70-89b0-b9708c119fd2
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The green revolution never took place.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3e67bd93-b81f-4403-b48c-1fe63a9f5119
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /laptop-sleeves---neogreene[3]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9a87f788-ba5a-46a9-af24-ecc25239b917
+      brxm_tutorial:introduction: Love the squishy feel of neoprene, but hate toxins
+        like VOCs?
+      brxm_tutorial:price: 25.0
+      brxm_tutorial:title: LAPTOP SLEEVES - NEOGREENE
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T13:29:49.288+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T13:30:30.980+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T13:30:37.355+02:00
+      hippotranslation:id: 81fd07c2-cb36-4c70-89b0-b9708c119fd2
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The green revolution never took place.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 3e67bd93-b81f-4403-b48c-1fe63a9f5119
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
