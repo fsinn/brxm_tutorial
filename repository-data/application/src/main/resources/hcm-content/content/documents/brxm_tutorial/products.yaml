@@ -275,3 +275,258 @@
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
+  /goal-zero-guide-10-plus-solar-recharging-kit:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: a85533b2-299c-4991-90b9-8c3c8696ea1e
+    hippo:name: GOAL ZERO GUIDE 10 PLUS SOLAR RECHARGING KIT
+    hippo:versionHistory: d6467f8f-2170-47b7-910e-af0009393ad9
+    /goal-zero-guide-10-plus-solar-recharging-kit[1]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 17b7b4b1-3109-46ec-8398-d230c3f60038
+      brxm_tutorial:introduction: Charge your stuff directly from the sun’s power
+        or bank it for a cloudy day.
+      brxm_tutorial:price: 13.38
+      brxm_tutorial:title: GOAL ZERO GUIDE 10 PLUS SOLAR RECHARGING KIT
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:37:28.745+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:37:28.745+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 592e47a1-9060-4a15-8609-9cc71c07491f
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The weather- it is nice today :3</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: e40ea6ef-3f54-424e-adc5-59c4f37fff85
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /goal-zero-guide-10-plus-solar-recharging-kit[2]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1a3dc14e-8803-4a45-bd9e-7f0966c7c6e6
+      brxm_tutorial:introduction: Charge your stuff directly from the sun’s power
+        or bank it for a cloudy day.
+      brxm_tutorial:price: 13.38
+      brxm_tutorial:title: GOAL ZERO GUIDE 10 PLUS SOLAR RECHARGING KIT
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:37:28.745+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:38:39.181+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 592e47a1-9060-4a15-8609-9cc71c07491f
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The weather- it is nice today :3</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: e40ea6ef-3f54-424e-adc5-59c4f37fff85
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /goal-zero-guide-10-plus-solar-recharging-kit[3]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d48cdb33-a4a1-4634-9537-53171113258b
+      brxm_tutorial:introduction: Charge your stuff directly from the sun’s power
+        or bank it for a cloudy day.
+      brxm_tutorial:price: 13.38
+      brxm_tutorial:title: GOAL ZERO GUIDE 10 PLUS SOLAR RECHARGING KIT
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:37:28.745+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:38:39.181+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T16:38:43.025+02:00
+      hippotranslation:id: 592e47a1-9060-4a15-8609-9cc71c07491f
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The weather- it is nice today :3</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: e40ea6ef-3f54-424e-adc5-59c4f37fff85
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /lowepro-terraclime-50:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: de40b213-c482-4d5b-a6cc-56af4273ce9a
+    hippo:name: LOWEPRO TERRACLIME 50
+    hippo:versionHistory: 41535323-29f0-499e-9684-afdaadbb98d1
+    /lowepro-terraclime-50[1]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0db17322-f4c5-44fd-9cfd-1623ee86849a
+      brxm_tutorial:introduction: Terraclime is a soft-sided, multi-purpose pouch
+        made of over 95% recycled materials.
+      brxm_tutorial:price: 42.11
+      brxm_tutorial:title: LOWEPRO TERRACLIME 50
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:38:57.224+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:38:57.224+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 078d28c7-b748-410d-93c4-a9c2d14d4bfa
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>It is, however, utterly useless.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 8c2e485a-0365-476c-931c-7389756b6341
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /lowepro-terraclime-50[2]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 99f1f9b9-355a-45de-8d4e-8192b7c164cf
+      brxm_tutorial:introduction: Terraclime is a soft-sided, multi-purpose pouch
+        made of over 95% recycled materials.
+      brxm_tutorial:price: 42.11
+      brxm_tutorial:title: LOWEPRO TERRACLIME 50
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:38:57.224+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:39:20.858+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 078d28c7-b748-410d-93c4-a9c2d14d4bfa
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>It is, however, utterly useless.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 8c2e485a-0365-476c-931c-7389756b6341
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /lowepro-terraclime-50[3]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7c3682c5-dd98-4178-99bd-ace006ce216e
+      brxm_tutorial:introduction: Terraclime is a soft-sided, multi-purpose pouch
+        made of over 95% recycled materials.
+      brxm_tutorial:price: 42.11
+      brxm_tutorial:title: LOWEPRO TERRACLIME 50
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:38:57.224+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:39:20.858+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T16:39:23.596+02:00
+      hippotranslation:id: 078d28c7-b748-410d-93c4-a9c2d14d4bfa
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>It is, however, utterly useless.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 8c2e485a-0365-476c-931c-7389756b6341
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /green-reusable-mesh-produce-bags:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7b6d815f-7dd4-4ed5-b58f-8eb05e8d5c4f
+    hippo:name: GREEN REUSABLE MESH PRODUCE BAGS
+    hippo:versionHistory: 0e7e971a-3f7c-470f-b400-3385daca0f91
+    /green-reusable-mesh-produce-bags[1]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0ddf365c-aaee-4dbe-a65f-7e77112bf4c8
+      brxm_tutorial:introduction: Keep your produce away from plastic! Made from 100%
+        recycled mesh.
+      brxm_tutorial:price: 0.9
+      brxm_tutorial:title: GREEN REUSABLE MESH PRODUCE BAGS
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:39:41.984+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:39:41.984+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c5f3f3f4-ffbb-4454-bf88-b5a1721a8831
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>These are great for nothing, really.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d1f5033b-b0d6-420a-8432-a194e58053dc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /green-reusable-mesh-produce-bags[2]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 7e164bea-2181-4707-8ed8-b4a3915cdeab
+      brxm_tutorial:introduction: Keep your produce away from plastic! Made from 100%
+        recycled mesh.
+      brxm_tutorial:price: 0.9
+      brxm_tutorial:title: GREEN REUSABLE MESH PRODUCE BAGS
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:39:41.984+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:40:09.943+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c5f3f3f4-ffbb-4454-bf88-b5a1721a8831
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>These are great for nothing, really.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d1f5033b-b0d6-420a-8432-a194e58053dc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /green-reusable-mesh-produce-bags[3]:
+      jcr:primaryType: brxm_tutorial:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8ec80c20-33e0-42db-8877-988f6df12801
+      brxm_tutorial:introduction: Keep your produce away from plastic! Made from 100%
+        recycled mesh.
+      brxm_tutorial:price: 0.9
+      brxm_tutorial:title: GREEN REUSABLE MESH PRODUCE BAGS
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-27T16:39:41.984+02:00
+      hippostdpubwf:lastModificationDate: 2021-10-27T16:40:09.943+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-27T16:40:11.433+02:00
+      hippotranslation:id: c5f3f3f4-ffbb-4454-bf88-b5a1721a8831
+      hippotranslation:locale: en
+      /brxm_tutorial:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>These are great for nothing, really.</p>
+      /brxm_tutorial:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d1f5033b-b0d6-420a-8432-a194e58053dc
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

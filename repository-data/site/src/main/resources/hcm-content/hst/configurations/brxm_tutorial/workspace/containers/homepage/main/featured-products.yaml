@@ -1,0 +1,9 @@
+/hst:hst/hst:configurations/brxm_tutorial/hst:workspace/hst:containers/homepage/main/featured-products:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListPickerComponent
+  hst:label: Featured Products
+  hst:parameternames: [document8, document7, document9, document4, document3, document6,
+    document10, document5, pageSize, document2, showPagination, document1]
+  hst:parametervalues: ['', '', '', '', products/lowepro-terraclime-50, '', '', '',
+    '10', products/goal-zero-guide-10-plus-solar-recharging-kit, 'off', products/green-reusable-mesh-produce-bags]
+  hst:template: featured-products

@@ -12,7 +12,7 @@ definitions:
           hippo:identifier: 6cb37e20-19a5-40ff-aea4-02bba85ce72e
           hst:label: Home Page Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2021-10-26T10:07:15.892+02:00
+          hst:lastmodified: 2021-10-27T16:49:17.953+02:00
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
         /main:

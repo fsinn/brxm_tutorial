@@ -41,3 +41,6 @@ definitions:
       /productpage-main:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/brxm_tutorial/productpage-main.ftl
+      /featured-products:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/brxm_tutorial/featured-products.ftl
