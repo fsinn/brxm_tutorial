@@ -1,0 +1,6 @@
+/content/documents/brxm_tutorial/newsfacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: db12b8a6-59e7-4738-8845-acc89391f595
+  hippofacnav:facetnodenames: [Location, Author, Year]
+  hippofacnav:facets: ['brxm_tutorial:location', 'brxm_tutorial:author', 'brxm_tutorial:date$year']
+  hippofacnav:filters: ['jcr:primaryType=brxm_tutorial:newsdocument']

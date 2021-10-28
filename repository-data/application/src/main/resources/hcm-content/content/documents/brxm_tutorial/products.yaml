@@ -1,4 +1,5 @@
 /content/documents/brxm_tutorial/products:
+  .meta:order-before: newsfacets
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 539a3f11-2bf7-4e0e-a4e5-b5af191fd515
